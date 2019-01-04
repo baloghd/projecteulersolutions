@@ -1,2 +1,2 @@
 # projecteulersolutions
-My Project Euler solutions using Python and my eulerutil library
+My Project Euler solutions using Python 3.7 and my [eulerutil library](https://github.com/baloghd/eulerutil)
