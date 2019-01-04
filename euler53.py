@@ -1,9 +1,7 @@
-from eulerutil.combinatorics import choose
+from eulerutil.combinatorics import Pascal_triangle
 
 count = 0
 # specification mentioned that the lower bound was 23
 for i in range(23, 101):
-    for j in range(1, i):
-        if choose(i, j) > 1_000_000:
-            count += 1
+    count += len(list(filter(lambda x: x > 1_000_000, Pascal_triangle(i))))
 print(count)
