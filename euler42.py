@@ -2,6 +2,8 @@ from typing import Set
 import math
 
 words = list(open("euler42_words.txt"))[0].replace('"', '').split(",")
+
+#t = the maximum word length => max(n) ~ floor(sqrt(2*t))
 triangle_limit = math.floor(math.sqrt(max(map(len, words)) * 26 * 2))
 
 def wordplace(c: str) -> int:
