@@ -1,5 +1,7 @@
 from eulerutil.number_theory import *
+
 n = 1
+
 while True:
     t = (n * (n + 1))//2
     n_even = n % 2 == 0
