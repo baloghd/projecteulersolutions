@@ -15,14 +15,6 @@ target = """75
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23""".split("\n")
 
 target = [list(map(int, t.split())) for t in target]
-"""
-current = target[0][0]
-szum = 0
-for index, line in enumerate(target[1:]):
-	step = max(line)
-	target[index][]
-"""
-
 sumTable = target.copy()
 
 for line in range(len(target) - 2, 0, -1):
